@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: ec73459e3bd343d45bd52bb1abb81217
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8426899809784604353
+    second: Aris_walk_0
+  - first:
+      213: -6920104577163866097
+    second: Aris_walk_1
+  - first:
+      213: 4352126895522889958
+    second: Aris_walk_2
+  - first:
+      213: 1979612028628848189
+    second: Aris_walk_3
+  - first:
+      213: 8053026958965615194
+    second: Aris_walk_4
+  - first:
+      213: -6251254520257208963
+    second: Aris_walk_5
+  - first:
+      213: 2358059523396019659
+    second: Aris_walk_6
+  - first:
+      213: -8555796219770004113
+    second: Aris_walk_7
+  - first:
+      213: -1472651531202193801
+    second: Aris_walk_8
+  - first:
+      213: -7013942527814390020
+    second: Aris_walk_9
+  - first:
+      213: -6228597863978591406
+    second: Aris_walk_10
+  - first:
+      213: 7778541680384750477
+    second: Aris_walk_11
+  - first:
+      213: 3035973496899905506
+    second: Aris_walk_12
+  - first:
+      213: 5456760623589202931
+    second: Aris_walk_13
+  - first:
+      213: 8357524271638950484
+    second: Aris_walk_14
+  - first:
+      213: 257746209216593488
+    second: Aris_walk_15
+  - first:
+      213: 8821191950587339103
+    second: Aris_walk_16
+  - first:
+      213: 7731581195821422918
+    second: Aris_walk_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aris_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1486.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a408babc52f470800000000000000
+      internalID: 8426899809784604353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1486.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00d7952d89d6ff90800000000000000
+      internalID: -6920104577163866097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_2
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1486.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0c0195a5cd56c30800000000000000
+      internalID: 4352126895522889958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1486.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e438fc6aef87b10800000000000000
+      internalID: 1979612028628848189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1486.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a2ac73a5912cf60800000000000000
+      internalID: 8053026958965615194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 991.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d938762251f39a0800000000000000
+      internalID: -6251254520257208963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_6
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 991.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc52f3b94a289b020800000000000000
+      internalID: 2358059523396019659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 991.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d9afd2ba4b34980800000000000000
+      internalID: -8555796219770004113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 991.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77612cc1c37109be0800000000000000
+      internalID: -1472651531202193801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 991.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe2e92be6879ae90800000000000000
+      internalID: -7013942527814390020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b9cc44e339f89a0800000000000000
+      internalID: -6228597863978591406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 496.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8337e1227ee2fb60800000000000000
+      internalID: 7778541680384750477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_12
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 496.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e728366fc1f12a20800000000000000
+      internalID: 3035973496899905506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 496.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb9f5140ee4abb40800000000000000
+      internalID: 5456760623589202931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 496.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452beb48b04ebf370800000000000000
+      internalID: 8357524271638950484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05efe8acfc2b39300800000000000000
+      internalID: 257746209216593488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f512b46a75b2b6a70800000000000000
+      internalID: 8821191950587339103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aris_walk_17
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1.5
+        width: 490
+        height: 495.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649960942281c4b60800000000000000
+      internalID: 7731581195821422918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
