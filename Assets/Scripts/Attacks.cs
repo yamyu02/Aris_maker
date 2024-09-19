@@ -13,10 +13,10 @@ public class Attacks: MonoBehaviour
 
     private Animator ATKani;
     private SpriteRenderer asr;
+    private Collider2D Attack_col;
 
     private float movementx;
     private int counter = 1;
-    private bool attacking = false; 
     
     private string Slash_animation = "Slashing";
 
@@ -24,6 +24,8 @@ public class Attacks: MonoBehaviour
     {
         ATKani = GetComponent<Animator>();
         asr = GetComponent<SpriteRenderer>();
+        Attack_col = asr.GetComponent<Collider2D>();
+        Attack_col.enabled = false;
     }
 
     // Start is called before the first frame update
@@ -40,26 +42,23 @@ public class Attacks: MonoBehaviour
 
     void LateUpdate()
     {
-        Count();
+      
         Animate();
         Directions();
+        tempPos.y = player.position.y;
+        transform.position = tempPos;
     }
 
-    private void Count()
-    {
-        counter += 1;
-    }
-
+    
 
     private void Animate()
     {
         movementx = Input.GetAxisRaw("Horizontal");
-
-        if (counter == 50)
+        Attack_col.enabled = true;
+        if (Input.GetMouseButton(0))
         {
-            attacking = true;
             ATKani.SetBool(Slash_animation, true);
-            counter = 1;
+            
             if (movementx > 0)
             { 
                 asr.flipX = false;
@@ -72,28 +71,21 @@ public class Attacks: MonoBehaviour
         else
         {
             ATKani.SetBool(Slash_animation, false);
+            Attack_col.enabled = false;
         }
     }
     private void Directions()
     {
         tempPos = transform.position;
-        if (movementx > 0 && attacking == true)
+        if (movementx > 0)
         {
             tempPos.x = 1 + player.position.x;
         }
-        else if (movementx < 0 && attacking == true)
+        else if (movementx < 0)
         {
             tempPos.x = player.position.x - 1;
         }
-        else
-        {
-            
-            attacking = false;
-        }
-
-        tempPos.y = player.position.y;
-        transform.position = tempPos;
-
+       
     }
 
 
