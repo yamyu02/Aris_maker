@@ -43,10 +43,6 @@ public class Player : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
-    {
-
-    }
     void PlayerMoveKeyboard ()
     {
         movementx = Input.GetAxisRaw("Horizontal");
