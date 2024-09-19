@@ -39,6 +39,7 @@ public class Enemy : MonoBehaviour
         {
             Eneani.SetBool("Isdead", true);
             Destroy(gameObject);
+
         }
     }
 }
