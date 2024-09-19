@@ -9,14 +9,15 @@ public class Enemy : MonoBehaviour
 
     private Animator Eneani;
     private SpriteRenderer Enesr;
+    private Collider2D Enemy_col;
 
-
+    
 
     private void Awake()
     {
         Eneani = GetComponent<Animator>();
         Enesr = GetComponent<SpriteRenderer>();
-
+        Enemy_col = GetComponent<Collider2D>();
         
     }
     
@@ -38,8 +39,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Attack_Slash"))
         {
             Eneani.SetBool("Isdead", true);
-            Destroy(gameObject);
-
+            Enemy_col.enabled = false;
         }
     }
 }

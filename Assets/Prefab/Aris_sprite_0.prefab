@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2659393925535639075}
   - component: {fileID: 596071865532046696}
   - component: {fileID: 1231005274413315171}
-  - component: {fileID: 13917146}
   - component: {fileID: 2453770104824679108}
+  - component: {fileID: 1812938133}
   m_Layer: 0
   m_Name: Aris_sprite_0
   m_TagString: Player
@@ -155,7 +155,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!82 &13917146
+--- !u!114 &2453770104824679108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659393925535639074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0116924dc89013546995af4f617b145e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 5
+  jumpForce: 10
+  mybody: {fileID: 1231005274413315171}
+--- !u!82 &1812938133
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,9 +180,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1fffc3780c0a0504492651654638059d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bd1a1130a47af9c43b48ed4ab3e5bb44, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.152
+  m_Volume: 0.095
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -251,18 +266,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2453770104824679108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2659393925535639074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0116924dc89013546995af4f617b145e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveForce: 5
-  jumpForce: 10
-  mybody: {fileID: 1231005274413315171}

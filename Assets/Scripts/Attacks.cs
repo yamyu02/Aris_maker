@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class Attacks: MonoBehaviour
+public class Attacks : MonoBehaviour
 {
 
     private Transform player;
@@ -16,8 +16,8 @@ public class Attacks: MonoBehaviour
     private Collider2D Attack_col;
 
     private float movementx;
-    private int counter = 1;
     
+
     private string Slash_animation = "Slashing";
 
     private void Awake()
@@ -37,41 +37,47 @@ public class Attacks: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          
+        
     }
 
     void LateUpdate()
     {
-      
-        Animate();
+        OffscreenAni();
+        Animate(); 
         Directions();
         tempPos.y = player.position.y;
         transform.position = tempPos;
     }
 
-    
 
+   
     private void Animate()
     {
         movementx = Input.GetAxisRaw("Horizontal");
-        Attack_col.enabled = true;
+
         if (Input.GetMouseButton(0))
         {
             ATKani.SetBool(Slash_animation, true);
+            Attack_col.enabled = true;
             
-            if (movementx > 0)
-            { 
-                asr.flipX = false;
-            }
-            else if (movementx < 0)
-            {
-                asr.flipX = true;
-            }
         }
         else
         {
             ATKani.SetBool(Slash_animation, false);
             Attack_col.enabled = false;
+        }
+    }
+
+
+    private void OffscreenAni()
+    {
+        if (movementx > 0)
+        {
+            asr.flipX = false;
+        }
+        else if (movementx < 0)
+        {
+            asr.flipX = true;
         }
     }
     private void Directions()
@@ -85,10 +91,6 @@ public class Attacks: MonoBehaviour
         {
             tempPos.x = player.position.x - 1;
         }
-       
+
     }
-
-
-
-
 }
