@@ -38,6 +38,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Eneani.SetBool("Isdead", true);
+            Destroy(gameObject);
         }
     }
 }
