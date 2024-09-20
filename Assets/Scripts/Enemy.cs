@@ -10,7 +10,8 @@ public class Enemy : MonoBehaviour
     private Animator Eneani;
     private SpriteRenderer Enesr;
 
-
+    public GameObject ignoreBox1;
+    public GameObject ignoreBox2;
 
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

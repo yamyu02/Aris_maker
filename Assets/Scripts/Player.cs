@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float playerHealth = 10;
+
     [SerializeField]
     private float moveForce = 10f;
     [SerializeField]
+    private bool doubleJump = false;
     private float jumpForce = 11f;
 
     private float movementx;
@@ -40,7 +44,12 @@ public class Player : MonoBehaviour
         PlayerMoveKeyboard();
         AnimatePlayer();
         PlayerJump();
-        
+
+        if (playerHealth < 1)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     void PlayerMoveKeyboard ()
@@ -72,10 +81,18 @@ public class Player : MonoBehaviour
     }
     void PlayerJump()
     {
-        if (Input.GetButtonDown("Jump") && Grounded)
+        if (Input.GetButtonDown("Jump"))
         {
-            Grounded = false;
-            mybody.AddForce(new Vector2 (0f, jumpForce), ForceMode2D.Impulse);
+            if (Grounded)
+            {
+                Grounded = false;
+                mybody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            }
+            else if(doubleJump == true)
+            {
+                doubleJump = false;
+                mybody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            }
 
         }
     }
@@ -85,6 +102,23 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag(Ground_Tag))
         {
             Grounded = true;
+            doubleJump = true;
+            if (collision.gameObject.CompareTag("Bullet"))
+            {
+                playerHealth -= 1;
+            }
+        }
+        else if (collision.gameObject.CompareTag("Bullet"))
+        {
+            playerHealth -= 1;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            playerHealth -= 1;
         }
     }
 } // class
